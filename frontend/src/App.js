@@ -3,7 +3,7 @@ import React, { useMemo, useRef, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000/upload";
+const API_URL = "https://swastyaai.onrender.com/upload";
 
 const STATUS = {
   Normal: "normal",
