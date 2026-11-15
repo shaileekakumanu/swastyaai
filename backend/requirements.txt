@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn
+python-multipart
+requests
+pdfplumber
+PyMuPDF
+pytesseract
+opencv-python-headless
