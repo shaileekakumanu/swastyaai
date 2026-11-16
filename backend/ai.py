@@ -1,11 +1,24 @@
 ﻿
 import json
 import re
+import os
 import requests
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = "https://subject-yesterday-timing.ngrok-free.dev/api/generate"
 MODEL_NAME = "qwen2.5:3b"
 TIMEOUT = 180
+OLLAMA_USERNAME = os.getenv("shailee kakumanu")
+OLLAMA_PASSWORD = os.getenv("shaileeneha2005201019771980")
+json={
+        "model": MODEL_NAME,
+        "prompt": prompt,
+        "stream": False,
+        "format": "json",
+        "options": {
+            "temperature": 0.1,
+            "num_predict": 1600
+        }
+    },
 
 DISCLAIMER = (
     "Educational information only. Not a medical diagnosis. "
